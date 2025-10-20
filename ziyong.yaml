@@ -1,6 +1,6 @@
 rules:
   - GEOSITE,paypal,PayPalGroup
-- DOMAIN,dmm.co.jp,DMMGroup                   # DMM 日本站点分流
+  - DOMAIN,dmm.co.jp,DMMGroup                   # DMM 日本站点分流
   - GEOSITE,bybit,BybitGroup                  # Bybit 交易平台分流
   - GEOSITE,javdb,JavdbGroup                  # JavDB 分流
   - DOMAIN,myunidays.com,UnidaysGroup         # 学生认证平台分流
