@@ -1,0 +1,87 @@
+var role1 = new spine.SpinePlayer("player-container1", {
+    jsonUrl: "https://wegame.gtimg.com/g.2002137-r.72c5f/f8c1b5e7-82f3-485b-8f0c-167e54817bd7.json",//json资源
+    atlasUrl: "https://wegame.gtimg.com/tgp_act/release/wegame/mingchao20251009/images/spine/galbrena/c_jiabeilina_1.atlas",//贴图动画信息
+    animations: ['idle'],
+	scale: 1,
+	alpha: true,
+	premultipliedAlpha: false,
+	backgroundColor: '#00000000',
+	preserveDrawingBuffer: false,
+	showControls: false,
+	showLoading: false,
+	viewport: {
+		x: -window.innerWidth / 2,
+		y:-window.innerWidth / 4,
+		width: window.innerWidth,
+		height: window.innerHeight,
+		padLeft: '0%',
+		padRight: '0%',
+		padTop: '0%',
+		padBottom: '0%'
+	}
+});
+var role2 = new spine.SpinePlayer("player-container2", {
+    jsonUrl: "https://wegame.gtimg.com/tgp_act/release/wegame/mingchao20251009/images/spine/qiuyuan/c_qiuyuan_1.json",//json资源
+    atlasUrl: "https://wegame.gtimg.com/tgp_act/release/wegame/mingchao20251009/images/spine/qiuyuan/c_qiuyuan_1.atlas",//贴图动画信息
+    animations: ['idle'],
+	scale: 1,
+	alpha: true,
+	premultipliedAlpha: false,
+	backgroundColor: '#00000000',
+	preserveDrawingBuffer: false,
+	showControls: false,
+	showLoading: false,
+	viewport: {
+		x: -window.innerWidth / 2,
+		y:-window.innerWidth / 4,
+		width: window.innerWidth,
+		height: window.innerHeight,
+		padLeft: '0%',
+		padRight: '0%',
+		padTop: '0%',
+		padBottom: '0%'
+	}
+});
+var role3 = new spine.SpinePlayer("player-container3", {
+    jsonUrl: "https://wegame.gtimg.com/tgp_act/release/wegame/mingchao20251009/images/spine/lupa/c_lupa_1.json",//json资源
+    atlasUrl: "https://wegame.gtimg.com/tgp_act/release/wegame/mingchao20251009/images/spine/lupa/c_lupa_1.atlas",//贴图动画信息
+    animations: ['idle'],
+	scale: 1,
+	alpha: true,
+	premultipliedAlpha: false,
+	backgroundColor: '#00000000',
+	preserveDrawingBuffer: false,
+	showControls: false,
+	showLoading: false,
+	viewport: {
+		x: -window.innerWidth / 2,
+		y:-window.innerWidth / 4.5,
+		width: window.innerWidth,
+		height: window.innerHeight,
+		padLeft: '0%',
+		padRight: '0%',
+		padTop: '0%',
+		padBottom: '0%'
+	}
+});
+var role4 = new spine.SpinePlayer("player-container4", {
+    jsonUrl: "https://wegame.gtimg.com/tgp_act/release/wegame/mingchao20251009/images/spine/zani/c_zanni_1.json",//json资源
+    atlasUrl: "https://wegame.gtimg.com/tgp_act/release/wegame/mingchao20251009/images/spine/zani/c_zanni_1.atlas",//贴图动画信息
+    animations: ['idle'],
+	scale: 1,
+	alpha: true,
+	premultipliedAlpha: false,
+	backgroundColor: '#00000000',
+	preserveDrawingBuffer: false,
+	showControls: false,
+	showLoading: false,
+	viewport: {
+		x: -window.innerWidth / 2,
+		y:-window.innerWidth / 4,
+		width: window.innerWidth,
+		height: window.innerHeight,
+		padLeft: '0%',
+		padRight: '0%',
+		padTop: '0%',
+		padBottom: '0%'
+	}
